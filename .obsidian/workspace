@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "f618d3da4c0ea57b",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb7647ac4dab514f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Kontent Krait Map.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "83a81ca8b7631027",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d9ac591738e6319",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7091a9509a73a9da",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "95225639def9f513",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "28087295a5f70364",
+    "type": "split",
+    "children": [
+      {
+        "id": "b001117ca63ed007",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a32b2b04cd0f4845",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Kontent Krait Map.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6a57085e53caf0fd",
+            "type": "leaf",
+            "state": {
+              "type": "workbench-items",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "fb7647ac4dab514f",
+  "lastOpenFiles": [
+    "Kontent Krait Map.md"
+  ]
+}
