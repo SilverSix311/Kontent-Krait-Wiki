@@ -6,11 +6,13 @@
       {
         "id": "fb7647ac4dab514f",
         "type": "leaf",
+        "dimension": 33.14378554021121,
         "state": {
           "type": "markdown",
           "state": {
             "file": "Kontent Krait Map.md",
-            "mode": "source"
+            "mode": "source",
+            "source": false
           }
         },
         "group": "bc60b685d6286bc8"
@@ -18,11 +20,13 @@
       {
         "id": "49e3a8a3a5653703",
         "type": "leaf",
+        "dimension": 66.85621445978879,
         "state": {
           "type": "markdown",
           "state": {
             "file": "Kontent Krait Map.md",
-            "mode": "preview"
+            "mode": "preview",
+            "source": false
           }
         },
         "group": "bc60b685d6286bc8"

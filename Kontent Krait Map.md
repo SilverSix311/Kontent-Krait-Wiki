@@ -1,60 +1,51 @@
 ```mermaid 
 graph TD
 
-HOST[///] --> MNT(/mnt/) -->|rclone| RTC(tcrypt)
+HOST[///] --> MNT(mnt/) -->|rclone| RTC(tcrypt) -->|dcrypt| RTD(tdrive)
 
-RTC -->|dcrypt| RTD(tdrive)
+RTD -->|rclone| LIB{Plex Library}
 
-  
+OPT(opt/)
 
-MNT --> INC(incomplete/)
-
-MNT --> COM(complete/)
-
-MNT --> UFS((unionfs/))
-
-RTD -->|rclone| LIB((Plex Library))
-
-  
-
-LIB --> LTV(tv/) --> UFS
-
-LIB --> LMOV(movies/) --> UFS
-
-LIB --> LMUS(music/) --> UFS
-
-  
+OPT --> APPDATA(appdata/)
+OPT --> CONDATA(container data)
 
 MNT --> MOV(move/)
 
-  
-
+MOV --> MANM(anime/) --> UFS
+MOV --> MMOV(movies/) --> UFS
+MOV --> MMUS(music/) --> UFS
 MOV --> MTV(tv/) --> UFS
 
-MOV --> MMOV(movies/) --> UFS
+MNT --> UFS{unionfs/}
+MNT --> INC(incomplete/)
+MNT --> COM(complete/)
 
-MOV --> MMUS(music/) --> UFS
-MOV --> MANM(anime/) --> UFS
-
-  
+LIB --> LANM(anime/) --> UFS
+LIB --> LMOV(movies/) --> UFS
+LIB --> LMUS(music/) --> UFS
+LIB --> LTV(tv/) --> UFS
 
 INC --> NZBI(nzb/)
 
-NZBI --> NZBS(nzbs/)
-
-NZBI --> NZBITV(tv/)
-
+NZBI --> NABA(anime/)
 NZBI --> NZBIM(movies/)
-
-  
+NZBI --> NZBIMU(music/)
+NZBI --> NZBITV(tv/)
+NZBI --> NZBS(nzbs/)
 
 COM --> NZB(nzb/)
 
-  
-
+NZB --> NZBA(anime/)
+NZB --> NZBMU(music/)
 NZB --> NZBM(movies/)
-
 NZB --> NZBTV(tv/)
 
-NZB --> NZBA(anime/)
+UFS --> PLEX((Plex))
+UFS --> SONR((Sonarr))
+UFS --> RADR((Radarr))
+
+PLEX --> DOCKER[Docker]
+SONR --> DOCKER
+RADR --> DOCKER
 ```
