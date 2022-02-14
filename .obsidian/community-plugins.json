@@ -1,5 +1,4 @@
 [
-  "table-editor-obsidian",
   "better-pdf-plugin",
   "convert-url-to-iframe",
   "code-block-copy",
@@ -14,7 +13,6 @@
   "obsidian-markdown-formatting-assistant-plugin",
   "obsidian-mind-map",
   "obsidian-git",
-  "obsidian-outliner",
   "url-into-selection",
   "quickadd",
   "simple-embeds",
